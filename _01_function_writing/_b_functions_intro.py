@@ -14,6 +14,23 @@ import unittest
 #  you have to define one with the correct input variable(s) and return
 #  statement. Create your functions below and not inside the test class.
 
+def multiply(num1, num2):
+    num3 = num1 * num2
+    return num3
+
+def str_cat(var1, var2, var3):
+    print(str(var1)+' '+str(var2)+' '+str(var3))
+    return 'Welcome to Python'
+
+def greater_than(number1, number2):
+    isgreater = number1 < number2
+    return isgreater
+
+def get_random_number(low, high):
+    random_number = random.randint(low, high)
+    return random_number
+
+def is_vegetable(veggie):
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
