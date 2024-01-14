@@ -30,8 +30,18 @@ def get_random_number(low, high):
     random_number = random.randint(low, high)
     return random_number
 
-def is_vegetable(veggie):
+def is_vegetable(veggie=""):
+    return veggie == "celery"
 
+def make_appointment(preferred_time_of_day="morning"):
+    if preferred_time_of_day == 'morning':
+        return '8 am'
+    elif preferred_time_of_day == 'afternoon':
+        return'1 pm'
+    elif preferred_time_of_day == 'evening':
+        return '5 pm'
+    elif preferred_time_of_day == 'graveyard':
+        return 'error'
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
 class FunctionTests(unittest.TestCase):
