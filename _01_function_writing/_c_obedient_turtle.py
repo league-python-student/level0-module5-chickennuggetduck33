@@ -35,7 +35,7 @@ if __name__ == '__main__':
     elif WHATSHAPE == 'chip':
         play_video('https://www.youtube.com/watch?v=coaN2VBNgYA')
     elif WHATSHAPE =='jynxzi':
-        play_video('https://www.youtube.com/shorts/ada-n8Ss5g0')
+        play_video('https://www.youtube.com/shorts/qNrBZy4brw8')
     #   2. Write 3 method definitions for drawing a square, triangle, and
     #      circle.
     #   3. Ask the user for the for a shape to draw.
