@@ -89,14 +89,13 @@ if __name__ == '__main__':
         d = random.randint(1, 2)
         if g == 1:
             b = 60
+            draw_house(b)
         elif g == 2:
             b = 120
+            draw_house(b)
         elif g == 3:
             b = 250
-        if d == 1:
             draw_pointy_house(b)
-        elif d == 2:
-            draw_house(b)
     #   3) Put the code that drew the house into a function called draw_house
     #      HINT: Only the code that draws one house should go in this function.
     #   4) Using the function you just created, draw 10 houses.
