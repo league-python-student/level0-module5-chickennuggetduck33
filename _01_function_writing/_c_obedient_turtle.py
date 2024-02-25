@@ -13,6 +13,7 @@ def maketri():
     for i in range(3):
         cheese.forward(100)
         cheese.right(120)
+
 def makespin():
     cheese.circle(100)
 
@@ -36,6 +37,7 @@ if __name__ == '__main__':
         play_video('https://www.youtube.com/watch?v=coaN2VBNgYA')
     elif WHATSHAPE =='jynxzi':
         play_video('https://www.youtube.com/shorts/qNrBZy4brw8')
+    turtle.done()
     #   2. Write 3 method definitions for drawing a square, triangle, and
     #      circle.
     #   3. Ask the user for the for a shape to draw.
