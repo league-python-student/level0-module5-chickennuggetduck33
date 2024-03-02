@@ -18,6 +18,7 @@ if __name__ == '__main__':
             pass
         q = q + 1
 
+
     #  2. Use a loop to alternately modify each character of the name into
     #     uppercase and lowercase letters until a new "goofy" representation
     #     of their name has been constructed.
