@@ -7,13 +7,22 @@ def setup():
     size(600, 400)
     # Call the noFill() command so all the ellipses will be transparent
     noFill()
+    global x
+    x = 50
+
 def draw():
+    background(255,255,255)
     # Use a for loop to make the first set of rings that will start in the left half
     # of the window.
-    x = 10
+    global x
+    y = 10
     for i in range(20):
-       ellipse(50, 200, x, x)
-       x = x + 10
+       ellipse(x, 200, y, y)
+       y = y + 10
+    if x >= 350:
+        x = x - 10
+    else:
+        x = x + 10
     # Make this set of rings move across the sketch to the right 
     # Hint: Make two variables, one for x and another for the speed. 
     #       Then increase x by the amount in speed.

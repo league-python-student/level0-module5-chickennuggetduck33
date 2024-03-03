@@ -10,14 +10,18 @@ if __name__ == '__main__':
     # TODO)
     #  1. Ask the user to enter their name.
     goofyahhname = simpledialog.askstring(None, prompt="GIVE ME YOU NAME BOZO!!!!!!!")
+    potato = ""
     q = 2
     for c in goofyahhname:
         if q % 2 == 0:
-            c.capitalize()
+            beans = c.upper()
+            potato = potato + beans
         else:
-            pass
+            beans2 = c.lower()
+            potato = potato + beans2
         q = q + 1
 
+    messagebox.showinfo(None, message=potato)
 
     #  2. Use a loop to alternately modify each character of the name into
     #     uppercase and lowercase letters until a new "goofy" representation
